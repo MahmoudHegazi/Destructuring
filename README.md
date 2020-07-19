@@ -77,7 +77,7 @@ const circle = {
   radius: 10,
   color: 'orange',
   getArea: function() {
-    return Math.PI * circle.radius * circle.radius;
+    return Math.PI * this.radius * this.radius;
   },
   getCircumference: function() {
     return 2 * Math.PI * circle.radius;
