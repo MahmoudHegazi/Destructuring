@@ -26,8 +26,9 @@ console.log(x);
 > [object Window
 ```
 
+How to solve it?
 
-We can refer to the undeclared variable in the destruction proecess
+1.  We can refer to the undeclared variable in the destruction proecess
 
 ```javascript
 const circle = {
@@ -50,7 +51,7 @@ alert(getArea());
 
 ```
 
-Or use the object's name in the function that has the radius property
+2.  use the object's name in the function that has the radius property
 
 ```javascript
 const circle = {
@@ -70,7 +71,7 @@ alert(getArea());
 
 ```
 
-or 
+3.  
 
 ```javascript
 const circle = {
