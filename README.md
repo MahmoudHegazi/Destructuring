@@ -17,7 +17,7 @@ let {radius, getArea, getCircumference} = circle;
 
 
 ```
-// getArea = new var contains function ```javascript return this.radius * bla bla ``` 
+// getArea = new var contains function ```javascript return return Math.PI * this.radius * this.radius; ``` 
 // [This  will refer to a window object or a global window object that does not have a radius property = undfined
 
 ```javascript
