@@ -28,7 +28,7 @@ console.log(x);
 
 How to solve it?
 
-* We can refer to the undeclared variable in the destruction proecess
+* 
 
 ```javascript
 const circle = {
