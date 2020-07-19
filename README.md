@@ -28,7 +28,7 @@ console.log(x);
 
 How to solve it?
 
-1.  We can refer to the undeclared variable in the destruction proecess
+* We can refer to the undeclared variable in the destruction proecess
 
 ```javascript
 const circle = {
@@ -51,7 +51,7 @@ alert(getArea());
 
 ```
 
-2.  use the object's name in the function that has the radius property
+*  use the object's name in the function that has the radius property
 
 ```javascript
 const circle = {
@@ -71,7 +71,7 @@ alert(getArea());
 
 ```
 
-3.  
+*   
 
 ```javascript
 const circle = {
